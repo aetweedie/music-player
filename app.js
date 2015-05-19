@@ -65,7 +65,7 @@ player2.addEventListener('click', function(e) {
 });
 
 player3.addEventListener('click', function(e) {
-  var trackNum = 3;
+  var trackNum = 2;
   if (nowPlaying !== trackNum) {
     aud.src = 'songs/' + tracks.file[trackNum];
     aud.play();
@@ -84,7 +84,7 @@ player3.addEventListener('click', function(e) {
 });
 
 player4.addEventListener('click', function(e) {
-  var trackNum = 4;
+  var trackNum = 3;
   if (nowPlaying !== trackNum) {
     aud.src = 'songs/' + tracks.file[trackNum];
     aud.play();
